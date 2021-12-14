@@ -10,7 +10,7 @@ This analysis looks at Amazon reviews written by members of the paid Amazon Vine
 
   - ![](images/totalno.png)
 
-  - ^Note: To find the total reviews, we first filtered the data set for reviews with more than 20 votes and where helpful_votes were atleast half of those votes.^
+  - *Note: To find the total reviews, we first filtered the data set for reviews with more than 20 votes and where helpful_votes were atleast half of those votes.*
 
   - The image above shows the dataframe for non-Vine reviews has 14,477 reviews, while the one for vine reviews has 60.
 
@@ -32,4 +32,4 @@ Because the aim of this project is to see if there is any bias toward favorable 
 
 Vine reviews had a 4.86% higher percentage than non-Vine reviews, meaning there may be bias toward favorable reviews from Vine reviewers! That is a signifact different from the numbers we saw before. This could mean that the public may have caught onto this bias and tends not to vote those reviews as helpful, but a more in depth analysis on why voters vote the way they do is needed.
 
-^The way the code is written may seem odd or indirect, but this is because calling the columns in any way always resulted in a KeyError, so I had to get creative.^
+*The way the code is written may seem odd or indirect, but this is because calling the columns in any way always resulted in a KeyError, so I had to get creative.*
