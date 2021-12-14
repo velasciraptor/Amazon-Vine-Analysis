@@ -32,4 +32,4 @@ Because the aim of this project is to see if there is any bias toward favorable 
 
 Vine reviews had a 4.86% higher percentage than non-Vine reviews, meaning there may be bias toward favorable reviews from Vine reviewers! That is a signifact different from the numbers we saw before. This could mean that the public may have caught onto this bias and tends not to vote those reviews as helpful, but a more in depth analysis on why voters vote the way they do is needed.
 
-*The way the code is written may seem odd or indirect, but this is because calling the columns in any way always resulted in a KeyError, so I had to get creative.*
+*Note: The way the code is written may seem odd or indirect, but this is because calling the columns in any way always resulted in a KeyError, so I had to get creative.*
